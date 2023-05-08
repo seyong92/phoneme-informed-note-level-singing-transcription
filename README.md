@@ -6,14 +6,14 @@ The model will be released when the conference is over.
 
 ## Requirements
 
-torch==1.13.0
-torchaudio==0.13.0
-nnAudio==0.3.2
-mido==1.2.10
-mir_eval==0.7
-librosa==0.9.1
-numpy==1.23.4
-wquantiles==0.4
+- torch==1.13.0
+- torchaudio==0.13.0
+- nnAudio==0.3.2
+- mido==1.2.10
+- mir_eval==0.7
+- librosa==0.9.1
+- numpy==1.23.4
+- wquantiles==0.4
 
 ## Usage
 
