@@ -4,8 +4,8 @@ A pretrained model for "A Phoneme-informed Neural Network Model for Note-level S
 
 ## Requirements
 
-- torch==1.13.0
-- torchaudio==0.13.0
+- torch==1.13.1
+- torchaudio==0.13.1
 - nnAudio==0.3.2
 - mido==1.2.10
 - mir_eval==0.7
