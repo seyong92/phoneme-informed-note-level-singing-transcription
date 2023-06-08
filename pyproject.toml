@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "phn-ast"
+version = "0.1.0"
+description = "The inference code of \"A Phoneme-Informed Neural Network Model for Note-Level Singing Transcription\", ICASSP 2023"
+authors = ["Sangeon Yong <koragon2@kaist.ac.kr>"]
+license = "MIT License"
+readme = "README.md"
+packages = [{include = "phn_ast"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+torch = "^1.13.1"
+torchaudio = "^0.13.1"
+nnaudio = "0.3.2"
+mido = "^1.2.10"
+librosa = "0.9.1"
+numpy = "1.23.4"
+wquantiles = "^0.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
