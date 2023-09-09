@@ -33,3 +33,9 @@ $ python infer.py checkpoints/model.pt INPUT_FILE OUTPUT_FILE --bpm BPM_OF_INPUT
 ## Blog with Demo Examples
 
 https://seyong92.github.io/phoneme-informed-transcription-blog/
+
+## Remarks
+
+To pull the model checkpoint from the GitHub repository, [Git LFS](https://docs.github.com/ko/repositories/working-with-files/managing-large-files/installing-git-large-file-storage?platform=linux) is needed.
+
+For people who suffer for downloading the model checkpoint through Git LFS, I uploaded the model checkpoint in [this link](https://github.com/seyong92/phoneme-informed-note-level-singing-transcription/releases/tag/0.1.0).
